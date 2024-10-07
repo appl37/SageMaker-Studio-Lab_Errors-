@@ -29,6 +29,10 @@ python --version
 conda install -c conda-forge libglib -y 
 conda update -n base conda -y
 ```
+# ⚠️ Important Notes
+- All commands are given below for Python notebook.
+- If You are useing the terminal for installing A1111 then avoid to installing packages via the Notebook.
+
 ## 2.**Python dependencies installing in the Notebook If you are using  Terminal then remove ! this then run**
 
 ### For Notebook fist setup the kernel
@@ -79,7 +83,7 @@ conda update -n base conda -y
 %cd ~/stable-diffusion-webui
 !pip install -r requirements.txt
 ```
-## 5.Launch Stable-Diffusion WebUi
+## 5.Launch (A1111WebUi)
 - Replace ngrok token with your token "2XWKyblB2vN0oonn4F9owPN1gfL_4wZ4rxXdb8sPqsdfgW"
 ```
 %cd ~/stable-diffusion-webui
