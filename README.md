@@ -9,7 +9,7 @@ This guide will help you set up Stable Diffusion in SageMaker Studio Lab, with s
      
 #1.1. Create a Python 3.11 environment
 ```bash
-conda create --name py310env python=3.11 -y
+conda create --name sdpy311env python=3.11 -y
 ```
 # 1.2. Activate the newly created environment
 ```bash
@@ -53,13 +53,19 @@ conda update -n base conda -y
   
      ![Alt Text](Image/4.jpg)
 
-   - Select the .conda.py310env.Python Kernel
+   - Select the .conda.py311env.Python Kernel
   
      ![Alt Text](Image/5.jpg)
 
    - Makesure Right Kernel is selected
   
      ![Alt Text](Image/6.jpg)
+
+   - If you are using the Terminal ,then Also active the environment in terminal after restarting JupyterLab...
+     ```bash
+    
+     conda activate sdpy311env
+    
    - After setting up the environment
    - 🚫 **Install all necessary Python packages .
      
